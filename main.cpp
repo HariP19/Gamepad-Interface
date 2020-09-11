@@ -1,3 +1,8 @@
+/*!
+ * Test for working of the controller.  
+ * Returns value on the leftStickAnalog if found else prints NULL
+ */
+
 #include "GameController.h"
 #include <iostream>
 
