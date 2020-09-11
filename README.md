@@ -1,7 +1,8 @@
 ## Gamepad-Interface
 This repository contains the Gamepad interface for linux. The code has been tested for Logitech F710 and Xbox One Controller.
 
-##Download and build code
+## Download and build code
+To build the code 
 ```
 git clone https://github.com/HariP19/Gamepad-Interface.git
 cd Gamepad-Interface
