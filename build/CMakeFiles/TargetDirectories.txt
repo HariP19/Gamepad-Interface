@@ -1,4 +1,0 @@
-/home/hari/tmp/Joypad-Interface/build/CMakeFiles/edit_cache.dir
-/home/hari/tmp/Joypad-Interface/build/CMakeFiles/gamepad_interface.dir
-/home/hari/tmp/Joypad-Interface/build/CMakeFiles/rebuild_cache.dir
-/home/hari/tmp/Joypad-Interface/build/CMakeFiles/gamepad_interface_automoc.dir

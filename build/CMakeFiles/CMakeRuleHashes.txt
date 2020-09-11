@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-6238cbdbf564019a9d6e1ff83267e28a CMakeFiles/gamepad_interface_automoc
-b968064ec749d170bdbd76e9e7b85d7d moc_GameController.cpp
