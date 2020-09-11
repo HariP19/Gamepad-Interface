@@ -1,0 +1,5 @@
+-I/home/hari/tmp/Joypad-Interface
+-I/home/hari/tmp/Joypad-Interface/build
+-o
+/home/hari/tmp/Joypad-Interface/build/moc_GameController.cpp
+/home/hari/tmp/Joypad-Interface/GameController.h
