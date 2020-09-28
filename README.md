@@ -13,4 +13,4 @@ make
 ```
 
 ## Dependencies
- - Qt 5.10+ - https://www.qt.io/download-qt-installer
+
