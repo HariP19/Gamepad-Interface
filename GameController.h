@@ -9,21 +9,15 @@
 
 #include "gamepadCommand.h"
 
-#include <QtCore/QObject>
 
-class QGamepad;  // for an unknown reason, #including <QtGamepad/QGamepad> here
-                 // makes compilation *very* slow
-
-class GameController : public QObject {
-  Q_OBJECT
+class GameController  {
  public:
-  explicit GameController(QObject *parent = 0);
+ 
   void updateGamepadCommand(GamepadCommand &gamepadCommand);
   void findNewController();
-  ~GameController();
+  
 
- private:
-  QGamepad *_qGamepad = nullptr;
+ 
 };
 
 #endif  // PROJECT_GAMECONTROLLER_H

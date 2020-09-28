@@ -19,21 +19,11 @@ endif()
 set(CMAKE_AUTOMOC ON)
 # Create code from a list of Qt designer ui files
 set(CMAKE_AUTOUIC ON)
-find_package(Qt5Core CONFIG REQUIRED)
-get_target_property(QtCore_location Qt5::Core LOCATION)
-message(STATUS ${QtCore_location})
 
-set(QOBJECT_HEADERS ${CMAKE_SOURCE_DIR}/GameController.h)
-message(STATUS ${QOBJECT_HEADERS})
-
-QT5_WRAP_CPP(tst_hdr_moc ${QOBJECT_HEADERS})
 
 include_directories("include/")
 include_directories(${CMAKE_BINARY_DIR})
 
-find_package(Qt5Core COMPONENTS QtGamepad REQUIRED)
-find_package(Qt5Gamepad REQUIRED)
 
 add_executable(${PROJECT_NAME} main.cpp GameController.cpp ${tst_hdr_moc})
 #add_executable(${PROJECT_NAME} main.cpp GameController.cpp)
-target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Gamepad ${QT_LIBRARIES})
