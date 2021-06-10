@@ -83,48 +83,50 @@ int main()
 
   	
     /* print the results */
-    printf( "X1: %6d  Y1: %6d  ", axis[0] , axis[1] );
+    // printf( "X1: %6d  Y1: %6d  ", axis[0] , axis[1] );
     
-    /*
-    printf("Left bumper:%d    ",gamepadCommand.leftBumper);
-    printf("Right bumper:%d   ",gamepadCommand.rightBumper);
-    printf("Left trigger button:%d   ",gamepadCommand.leftTriggerButton);
-    printf("Right trigger button:%d   ",gamepadCommand.rightTriggerButton);
-    printf("Back button:%d   ",gamepadCommand.back);
-    printf("Start button:%d   ",gamepadCommand.start);
-    printf("A button:%d   ",gamepadCommand.a);
-    printf("B button:%d   ",gamepadCommand.b);
-    printf("X button:%d   ",gamepadCommand.x);
-    printf("Y button:%d   ",gamepadCommand.y);
-    printf("Left joystick button:%d   ",gamepadCommand.leftStickButton);
-    printf("Right joystick button:%d   ",gamepadCommand.rightStickButton);
-
-    */
+    
+    // printf("Left bumper:%d    ",gamepadCommand.leftBumper);
+    // printf("Right bumper:%d   ",gamepadCommand.rightBumper);
+    // printf("Left trigger button:%d   ",gamepadCommand.leftTriggerButton);
+    // printf("Right trigger button:%d   ",gamepadCommand.rightTriggerButton);
+    // printf("Back button:%d   ",gamepadCommand.back);
+    // printf("Start button:%d   ",gamepadCommand.start);
+    // printf("A button:%d   ",gamepadCommand.a);
+    // printf("B button:%d   ",gamepadCommand.b);
+    // printf("X button:%d   ",gamepadCommand.x);
+    // printf("Y button:%d   ",gamepadCommand.y);
+    printf("Left joystick button - X:%f   ",gamepadCommand.leftStickAnalog[0]);
+    printf("Left joystick button - Y:%f   ",gamepadCommand.leftStickAnalog[1]);
+    printf("Left joystick button - X1:%f   ",gamepadCommand.rightStickAnalog[1]);
+    // printf("Right joystick button:%d   ",gamepadCommand.rightStickButton);
 
     
 
-    if( num_of_axis > 2 )
-      printf("X2: %6d  ", axis[2] );
+    
+
+    // if( num_of_axis > 2 )
+    //   printf("X2: %6d  ", axis[2] );
       
-    if( num_of_axis > 3 )
-      printf("Y2: %6d  ", axis[3] );
+    // if( num_of_axis > 3 )
+    //   printf("Y2: %6d  ", axis[3] );
 
-    if( num_of_axis > 4 )
-      printf("X3: %6d  ", axis[4] );
+    // if( num_of_axis > 4 )
+    //   printf("X3: %6d  ", axis[4] );
 
-    if( num_of_axis > 5 )
-      printf("Y3: %6d  ", axis[5] );
+    // if( num_of_axis > 5 )
+    //   printf("Y3: %6d  ", axis[5] );
 
-    if( num_of_axis > 6 )
-      printf("X4: %6d  ", axis[6] );
+    // if( num_of_axis > 6 )
+    //   printf("X4: %6d  ", axis[6] );
     
-    if( num_of_axis > 7 )
-      printf("Y4: %6d  ", axis[7] );
+    // if( num_of_axis > 7 )
+    //   printf("Y4: %6d  ", axis[7] );
     
 
       
-    for( x=0 ; x<num_of_buttons ; ++x )
-      printf("B%d: %d  ", x, button[x] );
+    // for( x=0 ; x<num_of_buttons ; ++x )
+    //   printf("B%d: %d  ", x, button[x] );
     
 
     printf("  \r");
